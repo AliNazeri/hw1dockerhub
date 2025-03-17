@@ -33,5 +33,5 @@ jobs:
         platforms: linux/amd64,linux/arm64
         push: true
         tags: |
-          devopswithsam/githubactions:latest
-          devopswithsam/githubactions:${{ github.run_number }}
+          sir0alien/llm-inference-image:latest
+          sir0alien/llm-inference-image:${{ github.run_number }}
